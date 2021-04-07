@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.URL?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Circle?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" styleClass="mainFxmlClass" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/15.0.1" fx:controller="week9lab.LayoutGUIController">
+    <stylesheets>
+        <URL value="@layoutgui.css" />
+    </stylesheets>
+   <children>
+      <Pane layoutX="-1.0" prefHeight="400.0" prefWidth="600.0">
+         <children>
+            <Circle fx:id="bigCircle" fill="#e9edf2" layoutX="285.0" layoutY="188.0" radius="160.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fill="#eb0202" layoutX="184.0" layoutY="65.0" radius="10.0" stroke="#171717" strokeType="INSIDE" />
+            <Circle fx:id="smCircle0" fill="#eb0202" layoutX="393.0" layoutY="75.0" radius="10.0" stroke="#171717" strokeType="INSIDE" />
+            <Circle fill="#eb0202" layoutX="264.0" layoutY="348.0" radius="10.0" stroke="#171717" strokeType="INSIDE" />
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>
